@@ -1,0 +1,24 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+
+# Local credentials and client configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.npmrc
+
+# Private LINE data, local state, and logs
+.linetask/
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+*.bak
